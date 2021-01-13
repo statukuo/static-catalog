@@ -1,0 +1,26 @@
+{
+  "name": "static-catalog",
+  "version": "1.0.0",
+  "description": "Static catalog from a JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "catalog-start": "catalog start",
+    "catalog-build": "catalog build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/statukuo/static-catalog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/statukuo/static-catalog/issues"
+  },
+  "homepage": "https://github.com/statukuo/static-catalog#readme",
+  "dependencies": {
+    "catalog": "^3.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
